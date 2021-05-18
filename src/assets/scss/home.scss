@@ -1,0 +1,116 @@
+.Home {
+  height: 100%;
+}
+// 左上
+.el-card__body {
+  // height: 100%;
+  // height: 300px;
+}
+.home .user {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: #cccccc solid 2px;
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 40px;
+  }
+  
+}
+.preLogin {
+  p {
+    // text-align: 内容对齐方式;
+    text-align: left;
+    line-height: 28px;
+    font-size: 14px;
+    color: #999999;
+    span {
+      color: #666666;
+      margin-left: 60px;
+    }
+  }
+
+}
+// 两个div之间的文字都居中？
+.userInfo {
+ .name {
+  line-height: 40px;
+  font-size: 32px;
+
+ }
+ .access {
+   line-height: 20px;
+   color: #9999;
+   
+ }
+  
+}
+
+
+
+// 右边部分
+.home .num {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.home .num .el-card {
+  width: 32%;
+  margin-bottom: 4px;
+}
+
+.home .num .el-card .detail {
+  
+  display: flex;
+}
+
+.graph {
+  display: flex;
+  justify-content: space-between;
+}
+.graph .el-card {
+  width: 48% ;
+}
+
+//右上部分
+.num {
+  .numItem{
+    .icon {
+      text-align: center;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      margin-right: 10px;
+    }
+    .detail{
+     height: 80px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     .num {
+       font-size: 30px;
+      margin: 0;
+      height: 40px;
+      line-height: 50px;
+     }
+     .txt{
+      margin: 0;
+      height: 40px;
+      line-height: 25px;
+      font-size: 14px;
+      color: #999999;
+      text-align: center;
+     }
+    }
+  }
+}
+
+// 左下
+.has-gutter {
+  height: 60px;
+}
